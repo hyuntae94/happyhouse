@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
-  swcMinify: true,
+  // swcMinify: true,
   async redirects() {
     return [
       {
