@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
-import { Map, MapTypeControl, ZoomControl } from 'react-kakao-maps-sdk';
+import React from "react";
+import { Map, MapTypeControl, ZoomControl } from "react-kakao-maps-sdk";
 
-import EventMarkerContainer from 'src/components/kaKaoMap/mapMarker';
+import EventMarkerContainer from "src/components/kaKaoMap/mapMarker";
 
 export interface mapCenter {
   center: centerDto;
@@ -87,7 +87,7 @@ const KakaoMap = () => {
   return (
     <Map
       center={{ lat: 37.530815367930174, lng: 127.00488182404571 }}
-      style={{ width: '100%', height: '91vh' }}
+      style={{ width: "100%", height: "91vh" }}
       level={7}
     >
       {data.map((value) => (

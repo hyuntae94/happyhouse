@@ -1,7 +1,7 @@
-import Document, { Html, Head, Main, NextScript } from 'next/document';
-import React from 'react';
-import KakaoMap from '@documents/KaKaoMap';
-import GoogleIcon from '@documents/GoogleIcon';
+import Document, { Html, Head, Main, NextScript } from "next/document";
+import React from "react";
+import KakaoMap from "@documents/KaKaoMap";
+import GoogleIcon from "@documents/GoogleIcon";
 
 class CustomDocument extends Document {
   render() {

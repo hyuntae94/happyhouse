@@ -1,19 +1,19 @@
-import React from 'react';
-import { AppProps } from 'next/app';
+import React from "react";
+import { AppProps } from "next/app";
 
-import 'semantic-ui-css/semantic.min.css';
-import 'antd/dist/antd.css';
-import '@styles/reset.scss';
+import "semantic-ui-css/semantic.min.css";
+import "antd/dist/antd.css";
+import "@styles/reset.scss";
 
-import { queryClient as DefaultQueryClient } from '@query/queryClient';
-import { Hydrate, QueryClientProvider } from '@tanstack/react-query';
+import { queryClient as DefaultQueryClient } from "@query/queryClient";
+import { Hydrate, QueryClientProvider } from "@tanstack/react-query";
 
-import { Provider } from 'react-redux';
-import { persistStore } from 'redux-persist';
-import { PersistGate } from 'redux-persist/integration/react';
-import { store } from '../store';
+import { Provider } from "react-redux";
+import { persistStore } from "redux-persist";
+import { PersistGate } from "redux-persist/integration/react";
+import { store } from "../store";
 
-import Layout from '@common/layout';
+import Layout from "@common/layout";
 
 export const persistor = persistStore(store);
 
