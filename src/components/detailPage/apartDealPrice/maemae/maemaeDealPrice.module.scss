@@ -1,0 +1,58 @@
+@import '@styles/constants.scss';
+
+.maemaePriceWrapper {
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  .title {
+    // width: 554px;
+    height: 29px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    .title__section1 {
+      //   width: 115px;
+      height: 29px;
+      font-size: $FS_Mm;
+      font-weight: $Fw_Md;
+    }
+    .title__section2 {
+      height: 22px;
+      font-size: $FS_Sl;
+      font-weight: $Fw_Sms;
+      color: $C_Gray30;
+    }
+  }
+  .contents {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    height: 275px;
+    .content {
+      display: flex;
+      border-bottom: 1px solid #d3d3d3;
+      padding: 10px;
+      font-size: $FS_Mmm;
+      &:first-child {
+        border-top: 1px solid #d3d3d3;
+        background-color: $C_Gray10;
+      }
+      .contract__Date {
+        width: 195px;
+        text-align: center;
+        font-weight: $Fw_Sms;
+      }
+      .contract__Price .price {
+        width: 340px;
+        padding-left: 25px;
+        font-weight: $Fw_Sms;
+      }
+      .date {
+        width: 195px;
+        text-align: center;
+        font-weight: $Fw_Smm;
+        color: #a6a6a6;
+      }
+    }
+  }
+}

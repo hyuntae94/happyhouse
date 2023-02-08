@@ -1,0 +1,15 @@
+{
+  "id": 101,
+  "address": "서울특별시 서초구 반포동 60-4",
+  "houseType": "아파트",
+  "price": "1000/50",
+  "houseName": "A-편한세상",
+  "netLeasableArea": "49.58m²",
+  "totalApartment": 340,
+  "bunyangApartment": 340,
+  "highFloor": 29,
+  "lowFloor": 2,
+  "totalDong": 4,
+  "buildingNumber": 19099,
+  "buildYear": 1987
+}

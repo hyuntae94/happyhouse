@@ -1,0 +1,9 @@
+@import '@styles/constants.scss';
+
+.detailWrapper {
+  position: relative;
+  display: flex;
+  width: 1110px;
+  flex-direction: column;
+  margin: 20px auto;
+}

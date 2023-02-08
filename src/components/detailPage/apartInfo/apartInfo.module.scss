@@ -1,0 +1,189 @@
+@import '@styles/constants.scss';
+
+$IMG_PATH: $STATIC_IMG_PATH + '/detailPage/apartInfo';
+
+.info__wrapper {
+  display: flex;
+  flex-direction: column;
+  .info__top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    .top__left {
+      display: flex;
+      flex-direction: column;
+      width: 210px;
+      height: 91px;
+      .houseType {
+        width: 50px;
+        height: 26px;
+        font-size: 18px;
+        color: $C_Blue10;
+      }
+      .houseName {
+        width: 190px;
+        height: 36px;
+        font-size: $FS_Ml;
+        color: $C_Black;
+      }
+      .address {
+        width: 202px;
+        height: 23px;
+        font-size: $FS_Ms;
+        font-weight: $Fw_SS;
+        color: $C_Gray45;
+      }
+    }
+    .top__middle {
+      display: flex;
+      width: 650px;
+      justify-content: space-between;
+
+      .middle__content {
+        display: flex;
+        flex-direction: column;
+        width: 137px;
+        text-align: center;
+        line-height: 27px;
+
+        .content__name {
+          font-size: $FS_Sm;
+          font-weight: $Fw_SS;
+          color: $C_Gray55;
+        }
+        .content__value {
+          font-size: $FS_Ms;
+          font-weight: $Fw_Sm;
+        }
+      }
+    }
+    .top__right {
+      display: flex;
+      justify-content: space-between;
+      width: 245px;
+
+      .button {
+        width: 120px;
+        height: 43px;
+        border: solid 1px #d3d3d3;
+        font-size: $FS_Ms;
+        color: $C_Black;
+        transition: 0.5s;
+        &:hover {
+          background-color: $C_Blue10;
+          color: $C_White;
+        }
+      }
+    }
+  }
+  .info__middle {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+    border-top: solid 1px #d7d7d7;
+    .middle__content {
+      width: 154px;
+      height: 23px;
+      .content__name {
+        width: 66px;
+        height: 20px;
+        margin-right: 20px;
+        font-size: $FS_Sm;
+        font-weight: $Fw_SS;
+        color: $C_Gray55;
+      }
+      .content__value {
+        width: 48px;
+        height: 23px;
+        font-size: $FS_Ms;
+        font-weight: bold;
+        font-family: NotoSansKR;
+      }
+    }
+  }
+  .info__bottom {
+    display: flex;
+    // justify-content: space-between;
+
+    .apartInfo1 {
+      width: 618px;
+      height: 492px;
+      background-image: url($IMG_PATH + '/apartInfo1.png');
+      background-size: cover;
+    }
+    .bottom__right {
+      display: flex;
+      flex-direction: column;
+      .section__top {
+        .apartInfo2 {
+          width: 246px;
+          height: 246px;
+          background-image: url($IMG_PATH + '/apartInfo2.png');
+          background-size: cover;
+        }
+        .apartInfo3 {
+          width: 246px;
+          height: 246px;
+          background-image: url($IMG_PATH + '/apartInfo3.png');
+          background-size: cover;
+        }
+      }
+      .section__bottom {
+        display: flex;
+        .apartInfo4 {
+          width: 246px;
+          height: 246px;
+          background-image: url($IMG_PATH + '/apartInfo4.png');
+          background-size: cover;
+        }
+        .apartInfo4_right {
+          position: relative;
+          display: flex;
+          width: 246px;
+          height: 246px;
+          background-image: url($IMG_PATH + '/apartInfo4.png');
+          background-size: cover;
+          .bg__img {
+            position: relative;
+            width: 246px;
+            height: 246px;
+            background-color: rgba(0, 0, 0, 0.7);
+            .bg__text {
+              position: absolute;
+              display: flex;
+              flex-direction: column;
+              width: 98px;
+              height: 100px;
+              justify-content: space-between;
+              align-items: center;
+              top: 30%;
+              left: 30%;
+              .more__btn {
+                width: 60px;
+                height: 60px;
+                background-image: url($IMG_PATH + '/btn_More2.png');
+                background-size: cover;
+                border-radius: 50%;
+                cursor: pointer;
+                transition: 0.6s ease-in-out;
+                &:hover {
+                  transform: rotate(90deg);
+                }
+              }
+              .more__text {
+                width: 98px;
+                height: 24px;
+                font-size: $FS_Mm;
+                font-weight: $Fw_SS;
+                color: #fff;
+                font-family: Montserrat;
+                text-align: center;
+                cursor: pointer;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

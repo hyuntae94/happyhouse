@@ -1,0 +1,26 @@
+@import '@styles/constants.scss';
+
+.aroundInfoWrapper {
+  border-bottom: 1px solid #dfdfdf;
+  .titleWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    .title {
+      width: 250px;
+      height: 36px;
+      font-size: $FS_Ml;
+      font-weight: $Fw_Smm;
+    }
+    .content {
+      width: 250px;
+      height: 25px;
+      font-size: $FS_Ms;
+      font-weight: $Fw_Smm;
+      color: $C_Gray30;
+    }
+  }
+}

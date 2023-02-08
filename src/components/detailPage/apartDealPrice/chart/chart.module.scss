@@ -1,0 +1,27 @@
+@import '@styles/constants.scss';
+
+.chart__container {
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  .selected {
+    margin-bottom: 10px;
+    .button {
+      border-radius: 5px;
+      background-color: $C_Gray10;
+      color: #a3a3a3;
+      font-size: $FS_Ms;
+      &::before {
+        display: none;
+      }
+      &.checked {
+        background-color: #32415e;
+        color: $C_White;
+        border: none;
+      }
+    }
+  }
+  .chart {
+    height: 350px;
+  }
+}
