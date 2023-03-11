@@ -1,9 +1,9 @@
-@import '@styles/constants.scss';
+@import "@styles/constants.scss";
 
 .Wrapper {
   width: 480px;
   height: 620px;
-  margin: 66px 720px 112px 480px;
+  margin: 120px auto;
   padding: 55px 60px;
   border-radius: 15px;
   border: solid 1px #e0e0e0;
@@ -49,13 +49,13 @@
     text-align: center;
     border-radius: 5px;
     border: solid 1px #e9e9e9;
-    background-color: #0075ff;
+    background-color: #657c9b;
     color: $C_White;
     transition: all ease 0.7s;
     cursor: pointer;
     &:hover {
-      background-color: $C_White;
-      color: #0075ff;
+      background-color: #156bce;
+      color: $C_White;
     }
   }
 }

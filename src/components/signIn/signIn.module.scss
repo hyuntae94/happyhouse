@@ -1,14 +1,9 @@
-@import '@styles/constants.scss';
+@import "@styles/constants.scss";
 
 .Loggin_wrapper {
   width: 480px;
   height: 548px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  margin: 66px 720px 112px 480px;
+  margin: 120px auto;
   padding: 55px 60px;
   border-radius: 15px;
   border: solid 1px #e0e0e0;
@@ -83,7 +78,7 @@
           bottom: 4px;
           right: -6px;
           background: rgb(201, 189, 189);
-          content: '';
+          content: "";
         }
       }
       span {
@@ -128,13 +123,13 @@
       margin: 50px 0 0;
       padding: 14px 157px 14px 161px;
       border-radius: 5px;
-      background-color: #0075ff;
+      background-color: #657c9b;
       color: $C_White;
       transition: all ease 0.7s;
       cursor: pointer;
       &:hover {
-        background-color: $C_White;
-        color: #0075ff;
+        background-color: #156bce;
+        color: $C_White;
       }
     }
   }
