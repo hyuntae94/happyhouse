@@ -1,5 +1,5 @@
 import { Map, MapTypeControl, ZoomControl } from "react-kakao-maps-sdk";
-import data from "./data.js";
+import data from "./data";
 import EventMarkerContainer from "src/components/kaKaoMap/mapMarker";
 import ShowList from "./showList";
 
@@ -16,7 +16,7 @@ interface typeProps {
   type: string;
 }
 
-const KakaoMap = ({ type }: typeProps) => {
+const Home = ({ type }: typeProps) => {
   return (
     <>
       <Map
@@ -38,4 +38,4 @@ const KakaoMap = ({ type }: typeProps) => {
   );
 };
 
-export default KakaoMap;
+export default Home;
