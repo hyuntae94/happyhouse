@@ -1,8 +1,9 @@
 import { Map, MapTypeControl, ZoomControl } from "react-kakao-maps-sdk";
-import data from "./data";
 import EventMarkerContainer from "src/components/kaKaoMap/mapMarker";
 import ShowList from "./showList";
-
+import axios from "axios";
+import { useEffect, useState } from "react";
+import Loading from "@common/loading";
 export interface mapCenter {
   center: centerDto;
 }
@@ -17,6 +18,18 @@ interface typeProps {
 }
 
 const Home = ({ type }: typeProps) => {
+  const [data, setData] = useState<any>(null);
+
+  const getData = async () => {
+    const { data } = await axios.get("/data/home/data.json");
+    setData(data);
+  };
+
+  useEffect(() => {
+    getData();
+  }, []);
+
+  if (!data) return <Loading />;
   return (
     <>
       <Map
@@ -24,7 +37,7 @@ const Home = ({ type }: typeProps) => {
         style={{ width: "100%", height: "100vh", position: "absolute", top: 0 }}
         level={7}
       >
-        {data.map((value) => (
+        {data.map((value: any) => (
           <EventMarkerContainer
             key={`EventMarkerContainer-${value.latlng.lat}-${value.latlng.lng}`}
             position={value.latlng}
