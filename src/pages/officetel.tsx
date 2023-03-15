@@ -1,7 +1,7 @@
-import Home from '@components/kaKaoMap';
+import Home from "@components/kaKaoMap";
 
 const Officetel = () => {
-  return <Home />;
+  return <Home type="officetel" />;
 };
 
 export default Officetel;

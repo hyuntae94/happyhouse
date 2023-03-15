@@ -1,8 +1,7 @@
-import Home from '@components/kaKaoMap';
-import { NextPage } from 'next';
+import Home from "@components/kaKaoMap";
 
-const Apart: NextPage = () => {
-  return <Home />;
+const Apart = () => {
+  return <Home type="apart" />;
 };
 
 export default Apart;

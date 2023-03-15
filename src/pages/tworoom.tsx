@@ -1,8 +1,7 @@
-import Home from '@components/kaKaoMap';
-import { NextPage } from 'next';
+import Home from "@components/kaKaoMap";
 
-const TwoRoom: NextPage = () => {
-  return <Home />;
+const TwoRoom = () => {
+  return <Home type="tworoom" />;
 };
 
 export default TwoRoom;

@@ -1,6 +1,6 @@
-@import '@styles/constants.scss';
+@import "@styles/constants.scss";
 
-$IMG_PATH: $STATIC_IMG_PATH + '/detailPage/apartInfo';
+$IMG_PATH: $STATIC_IMG_PATH + "/detailPage/apartInfo";
 
 .info__wrapper {
   display: flex;
@@ -8,7 +8,8 @@ $IMG_PATH: $STATIC_IMG_PATH + '/detailPage/apartInfo';
   .info__top {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 40px;
+    margin-bottom: 3%;
+    margin-right: 10%;
     .top__left {
       display: flex;
       flex-direction: column;
@@ -59,19 +60,18 @@ $IMG_PATH: $STATIC_IMG_PATH + '/detailPage/apartInfo';
     }
     .top__right {
       display: flex;
-      justify-content: space-between;
-      width: 245px;
 
       .button {
         width: 120px;
         height: 43px;
         border: solid 1px #d3d3d3;
         font-size: $FS_Ms;
-        color: $C_Black;
+        color: $C_White;
+        background-color: rgb(164, 159, 159);
         transition: 0.5s;
+        border-radius: 3%;
         &:hover {
-          background-color: $C_Blue10;
-          color: $C_White;
+          background-color: rgb(28, 23, 23);
         }
       }
     }
@@ -108,7 +108,7 @@ $IMG_PATH: $STATIC_IMG_PATH + '/detailPage/apartInfo';
     .apartInfo1 {
       width: 618px;
       height: 492px;
-      background-image: url($IMG_PATH + '/apartInfo1.png');
+      background-image: url($IMG_PATH + "/apartInfo1.png");
       background-size: cover;
     }
     .bottom__right {
@@ -118,13 +118,13 @@ $IMG_PATH: $STATIC_IMG_PATH + '/detailPage/apartInfo';
         .apartInfo2 {
           width: 246px;
           height: 246px;
-          background-image: url($IMG_PATH + '/apartInfo2.png');
+          background-image: url($IMG_PATH + "/apartInfo2.png");
           background-size: cover;
         }
         .apartInfo3 {
           width: 246px;
           height: 246px;
-          background-image: url($IMG_PATH + '/apartInfo3.png');
+          background-image: url($IMG_PATH + "/apartInfo3.png");
           background-size: cover;
         }
       }
@@ -133,7 +133,7 @@ $IMG_PATH: $STATIC_IMG_PATH + '/detailPage/apartInfo';
         .apartInfo4 {
           width: 246px;
           height: 246px;
-          background-image: url($IMG_PATH + '/apartInfo4.png');
+          background-image: url($IMG_PATH + "/apartInfo4.png");
           background-size: cover;
         }
         .apartInfo4_right {
@@ -141,47 +141,8 @@ $IMG_PATH: $STATIC_IMG_PATH + '/detailPage/apartInfo';
           display: flex;
           width: 246px;
           height: 246px;
-          background-image: url($IMG_PATH + '/apartInfo4.png');
+          background-image: url($IMG_PATH + "/apartInfo4.png");
           background-size: cover;
-          .bg__img {
-            position: relative;
-            width: 246px;
-            height: 246px;
-            background-color: rgba(0, 0, 0, 0.7);
-            .bg__text {
-              position: absolute;
-              display: flex;
-              flex-direction: column;
-              width: 98px;
-              height: 100px;
-              justify-content: space-between;
-              align-items: center;
-              top: 30%;
-              left: 30%;
-              .more__btn {
-                width: 60px;
-                height: 60px;
-                background-image: url($IMG_PATH + '/btn_More2.png');
-                background-size: cover;
-                border-radius: 50%;
-                cursor: pointer;
-                transition: 0.6s ease-in-out;
-                &:hover {
-                  transform: rotate(90deg);
-                }
-              }
-              .more__text {
-                width: 98px;
-                height: 24px;
-                font-size: $FS_Mm;
-                font-weight: $Fw_SS;
-                color: #fff;
-                font-family: Montserrat;
-                text-align: center;
-                cursor: pointer;
-              }
-            }
-          }
         }
       }
     }
