@@ -1,9 +1,10 @@
 @import "@styles/constants.scss";
 
 .Wrapper {
-  width: 480px;
-  height: 620px;
-  margin: 120px auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   padding: 55px 60px;
   border-radius: 15px;
   border: solid 1px #e0e0e0;
@@ -11,7 +12,6 @@
     text-align: center;
     font-size: 30px;
     font-weight: bold;
-    padding-bottom: 10px;
   }
   .subTitle {
     margin-bottom: 30px;
@@ -24,7 +24,9 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-top: 12px;
+    &:not(:first-of-type) {
+      margin-top: 12px;
+    }
     p {
       font-size: 14px;
       font-weight: 500;

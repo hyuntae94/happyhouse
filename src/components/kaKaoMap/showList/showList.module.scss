@@ -63,6 +63,10 @@
     background-image: url($STATIC_IMG_PATH + "/img1.jpeg");
     background-size: cover;
     border-radius: 3px;
+    transition: all ease-in-out 0.5s;
+    &:hover {
+      transform: scale(1.05);
+    }
   }
   .content_wrapper {
     display: flex;

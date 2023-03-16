@@ -1,8 +1,10 @@
-import React from 'react';
-import { Layout as AntdLayout } from 'antd';
-import Header from '@common/layout/header';
-import { useSelector } from 'react-redux';
-import { stateProps } from 'src/store/reducer/loginReducer';
+import { Layout as AntdLayout } from "antd";
+import Header from "@common/layout/header";
+
+import classNames from "classnames/bind";
+import styles from "./layout.module.scss";
+
+const cx = classNames.bind(styles);
 
 interface LayoutProps {
   children: JSX.Element;
@@ -13,7 +15,7 @@ const Layout = ({ children }: LayoutProps) => {
   return (
     <AntdLayout>
       <Header />
-      <AntdLayout style={{ backgroundColor: 'white' }}>
+      <AntdLayout className={cx("layoutWrapper")}>
         <Content>{children}</Content>
       </AntdLayout>
     </AntdLayout>

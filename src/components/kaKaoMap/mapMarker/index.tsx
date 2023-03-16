@@ -8,10 +8,11 @@ interface positonDto {
   lat: number;
   lng: number;
 }
-const imageSize = { width: 25, height: 26 };
-
+const imageSize = { width: 20, height: 20 };
 const EventMarkerContainer = ({ position }: EventMarkerContainerProps) => {
   const map = useMap();
+  const random = (Math.random() * 10).toFixed(0);
+  const iconNumber = [1, 2][Number(random) % 2];
 
   const markerClick = async (marker: any) => {
     const center = marker.getPosition();
@@ -29,7 +30,10 @@ const EventMarkerContainer = ({ position }: EventMarkerContainerProps) => {
       <MapMarker
         position={position}
         onClick={markerClick}
-        image={{ src: "/img/kakaoMap/iconHome.png", size: imageSize }}
+        image={{
+          src: `/img/kakaoMap/iconHome${iconNumber}.svg`,
+          size: imageSize,
+        }}
       ></MapMarker>
     </>
   );
