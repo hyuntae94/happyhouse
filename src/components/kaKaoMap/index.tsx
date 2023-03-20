@@ -1,5 +1,5 @@
 import { Map, MapTypeControl, ZoomControl } from "react-kakao-maps-sdk";
-import EventMarkerContainer from "@components/kakaoMap/mapMarker";
+import EventMarkerContainer from "src/components/kakaoMap/mapMarker";
 
 import axios from "axios";
 import { useEffect, useState } from "react";
