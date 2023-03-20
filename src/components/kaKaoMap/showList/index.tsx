@@ -3,8 +3,9 @@ import React, { useEffect, useState } from "react";
 import classNames from "classnames/bind";
 import styles from "./showList.module.scss";
 import axios from "axios";
-import Show from "./show";
+
 import Loading from "@common/loading";
+import Show from "./show";
 
 const cx = classNames.bind(styles);
 

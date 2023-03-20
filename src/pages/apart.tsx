@@ -1,4 +1,4 @@
-import Home from "@components/kakaoMap";
+import Home from "@components/kaKaoMap";
 
 const Apart = () => {
   return <Home type="apart" />;
