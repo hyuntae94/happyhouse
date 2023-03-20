@@ -1,9 +1,10 @@
 import { Map, MapTypeControl, ZoomControl } from "react-kakao-maps-sdk";
-import EventMarkerContainer from "src/components/kaKaoMap/mapMarker";
-import ShowList from "./showList";
+import EventMarkerContainer from "@components/kakaoMap/mapMarker";
+
 import axios from "axios";
 import { useEffect, useState } from "react";
 import Loading from "@common/loading";
+import ShowList from "./showList";
 export interface mapCenter {
   center: centerDto;
 }

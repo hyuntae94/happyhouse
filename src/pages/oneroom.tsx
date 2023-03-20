@@ -1,4 +1,4 @@
-import Home from "@components/kaKaoMap";
+import Home from "@components/kakaoMap";
 
 const OneRoom = () => {
   return <Home type="oneroom" />;
