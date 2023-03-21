@@ -41,6 +41,7 @@ const Home = ({ type }: typeProps) => {
           <EventMarkerContainer
             key={`EventMarkerContainer-${value.latlng.lat}-${value.latlng.lng}`}
             position={value.latlng}
+            type={type}
           />
         ))}
         <ZoomControl position={kakao.maps.ControlPosition.BOTTOMRIGHT} />
