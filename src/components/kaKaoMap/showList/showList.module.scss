@@ -60,8 +60,6 @@
   }
   .houseImg {
     width: 200px;
-    background-image: url($STATIC_IMG_PATH + "/img1.jpeg");
-    background-size: cover;
     border-radius: 3px;
     transition: all ease-in-out 0.5s;
     &:hover {

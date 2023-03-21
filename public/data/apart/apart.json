@@ -4,139 +4,159 @@
     "houseType": "아파트 / 전세",
     "price": "7.3억",
     "houseName": "A-편한세상",
-    "netLeasableArea": "49.58m²"
+    "netLeasableArea": "49.58m²",
+    "maintenanceCost": 10
   },
   {
     "id": 102,
     "houseType": "아파트 / 매매",
     "price": "13.3억",
-    "houseName": "A-편한세상",
-    "netLeasableArea": "76.58m²"
+    "houseName": "델루시아",
+    "netLeasableArea": "76.58m²",
+    "maintenanceCost": 8
   },
   {
     "id": 103,
     "houseType": "아파트 / 매매",
     "price": "8억 5천만원",
-    "houseName": "A-편한세상",
-    "netLeasableArea": "79.58m²"
+    "houseName": "에클라트",
+    "netLeasableArea": "79.58m²",
+    "maintenanceCost": 9
   },
   {
     "id": 104,
     "houseType": "아파트 / 전세",
     "price": "6.1억",
-    "houseName": "A-편한세상",
-    "netLeasableArea": "52.58m²"
+    "houseName": "아너힐즈",
+    "netLeasableArea": "52.58m²",
+    "maintenanceCost": 12
   },
   {
     "id": 105,
     "houseType": "아파트 / 전세",
     "price": "14.8억",
-    "houseName": "A-편한세상",
-    "netLeasableArea": "67.58m²"
+    "houseName": "클라테르",
+    "netLeasableArea": "67.58m²",
+    "maintenanceCost": 13
   },
   {
     "id": 106,
     "houseType": "아파트 / 매매",
     "price": "10.5억",
-    "houseName": "A-편한세상",
-    "netLeasableArea": "60.58m²"
+    "houseName": "원베일리",
+    "netLeasableArea": "60.58m²",
+    "maintenanceCost": 8
   },
   {
     "id": 107,
     "houseType": "아파트 / 매매",
     "price": "10.7억",
-    "houseName": "A-편한세상",
-    "netLeasableArea": "66.58m²"
+    "houseName": "포레센트",
+    "netLeasableArea": "66.58m²",
+    "maintenanceCost": 11
   },
   {
     "id": 108,
     "houseType": "아파트 / 매매",
     "price": "10.7억",
-    "houseName": "A-편한세상",
-    "netLeasableArea": "66.58m²"
+    "houseName": "라클래시",
+    "netLeasableArea": "66.58m²",
+    "maintenanceCost": 12
   },
   {
     "id": 109,
     "houseType": "아파트 / 매매",
     "price": "10.7억",
-    "houseName": "A-편한세상",
-    "netLeasableArea": "66.58m²"
+    "houseName": "프레티움",
+    "netLeasableArea": "66.58m²",
+    "maintenanceCost": 10
   },
   {
     "id": 110,
     "houseType": "아파트 / 매매",
     "price": "10.7억",
-    "houseName": "A-편한세상",
-    "netLeasableArea": "66.58m²"
+    "houseName": "블레스티지",
+    "netLeasableArea": "66.58m²",
+    "maintenanceCost": 7
   },
   {
     "id": 111,
     "houseType": "아파트 / 매매",
     "price": "10.7억",
-    "houseName": "A-편한세상",
-    "netLeasableArea": "66.58m²"
+    "houseName": "일루미스테이트",
+    "netLeasableArea": "66.58m²",
+    "maintenanceCost": 6
   },
   {
     "id": 112,
     "houseType": "아파트 / 매매",
     "price": "10.7억",
-    "houseName": "A-편한세상",
-    "netLeasableArea": "66.58m²"
+    "houseName": "센트럴 자이",
+    "netLeasableArea": "66.58m²",
+    "maintenanceCost": 10
   },
   {
     "id": 113,
     "houseType": "아파트 / 매매",
     "price": "10.7억",
-    "houseName": "A-편한세상",
-    "netLeasableArea": "66.58m²"
+    "houseName": "푸르지오",
+    "netLeasableArea": "66.58m²",
+    "maintenanceCost": 12
   },
   {
     "id": 114,
     "houseType": "아파트 / 매매",
     "price": "10.7억",
-    "houseName": "A-편한세상",
-    "netLeasableArea": "66.58m²"
+    "houseName": "아크로비스타",
+    "netLeasableArea": "66.58m²",
+    "maintenanceCost": 11
   },
   {
     "id": 115,
     "houseType": "아파트 / 매매",
     "price": "10.7억",
-    "houseName": "A-편한세상",
-    "netLeasableArea": "66.58m²"
+    "houseName": "로반베르디움",
+    "netLeasableArea": "66.58m²",
+    "maintenanceCost": 9
   },
   {
     "id": 116,
     "houseType": "아파트 / 매매",
     "price": "10.7억",
-    "houseName": "A-편한세상",
-    "netLeasableArea": "66.58m²"
+    "houseName": "더샵 리버포레",
+    "netLeasableArea": "66.58m²",
+    "maintenanceCost": 9
   },
   {
     "id": 117,
     "houseType": "아파트 / 매매",
     "price": "10.7억",
-    "houseName": "A-편한세상",
-    "netLeasableArea": "66.58m²"
+    "houseName": "하늘채",
+    "netLeasableArea": "66.58m²",
+    "maintenanceCost": 14
   },
   {
     "id": 118,
     "houseType": "아파트 / 매매",
     "price": "10.7억",
-    "houseName": "A-편한세상",
-    "netLeasableArea": "66.58m²"
+    "houseName": "월드메르디앙",
+    "netLeasableArea": "66.58m²",
+    "maintenanceCost": 10
   },
   {
     "id": 119,
     "houseType": "아파트 / 매매",
     "price": "10.7억",
-    "houseName": "A-편한세상",
-    "netLeasableArea": "66.58m²"
+    "houseName": "더테라스",
+    "netLeasableArea": "66.58m²",
+    "maintenanceCost": 13
   },
   {
     "id": 120,
     "houseType": "아파트 / 매매",
     "price": "10.7억",
-    "houseName": "A-편한세상",
-    "netLeasableArea": "66.58m²"
+    "houseName": "파라곤",
+    "netLeasableArea": "66.58m²",
+    "maintenanceCost": 11
   }
 ]
