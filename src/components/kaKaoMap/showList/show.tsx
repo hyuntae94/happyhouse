@@ -5,7 +5,7 @@ import styles from "./showList.module.scss";
 
 const cx = classNames.bind(styles);
 
-const Show = ({ data }: any) => {
+const Show = ({ data, type }: any) => {
   if (!data) return null;
 
   const router = useRouter();
@@ -22,7 +22,7 @@ const Show = ({ data }: any) => {
         >
           <img
             className={cx("houseImg")}
-            src={`/img/img${idx % 9}.jpg`}
+            src={`/img/${type}/img${idx % 9}.jpg`}
             alt="매물사진"
           ></img>
           <div className={cx("content_wrapper")}>

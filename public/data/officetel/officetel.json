@@ -1,86 +1,162 @@
 [
   {
     "id": 101,
-    "houseType": "오피스텔",
-    "price": "1000/50",
-    "houseName": "A-편한세상",
-    "netLeasableArea": "49.58m²"
+    "houseType": "오피스텔 / 월세",
+    "price": "1,000/93",
+    "houseName": "기린힐스",
+    "netLeasableArea": "54.25m²",
+    "maintenanceCost": 10
   },
   {
     "id": 102,
-    "houseType": "오피스텔",
-    "price": "1000/50",
-    "houseName": "A-편한세상",
-    "netLeasableArea": "49.58m²"
+    "houseType": "오피스텔 / 월세",
+    "price": "200/130",
+    "houseName": "크레신타워",
+    "netLeasableArea": "48.39m²",
+    "maintenanceCost": 10
   },
   {
     "id": 103,
-    "houseType": "오피스텔",
-    "price": "1000/50",
-    "houseName": "A-편한세상",
-    "netLeasableArea": "49.58m²"
+    "houseType": "오피스텔 / 월세",
+    "price": "5,000/320",
+    "houseName": "아노블리81",
+    "netLeasableArea": "81.62m²",
+    "maintenanceCost": 10
   },
   {
     "id": 104,
-    "houseType": "오피스텔",
-    "price": "1000/50",
-    "houseName": "A-편한세상",
-    "netLeasableArea": "49.58m²"
+    "houseType": "오피스텔 / 전세",
+    "price": "2.3억",
+    "houseName": "테헤란로대우아이빌",
+    "netLeasableArea": "40.83m²",
+    "maintenanceCost": 12
   },
   {
     "id": 105,
-    "houseType": "오피스텔",
-    "price": "1000/50",
-    "houseName": "A-편한세상",
-    "netLeasableArea": "49.58m²"
+    "houseType": "오피스텔 / 월세",
+    "price": "1억/84",
+    "houseName": "NPARK",
+    "netLeasableArea": "49.59m²",
+    "maintenanceCost": 20
   },
   {
     "id": 106,
-    "houseType": "오피스텔",
-    "price": "1000/50",
-    "houseName": "A-편한세상",
-    "netLeasableArea": "49.58m²"
+    "houseType": "오피스텔 / 전세",
+    "price": "2.8억/75",
+    "houseName": "신원메트로빌",
+    "netLeasableArea": "73.73.m²",
+    "maintenanceCost": 15
   },
   {
     "id": 107,
-    "houseType": "오피스텔",
-    "price": "1000/50",
-    "houseName": "A-편한세상",
-    "netLeasableArea": "49.58m²"
+    "houseType": "오피스텔 / 전세",
+    "price": "1.3억",
+    "houseName": "제일캠퍼스텔",
+    "netLeasableArea": "15.28m²",
+    "maintenanceCost": 6
   },
   {
     "id": 108,
-    "houseType": "오피스텔",
-    "price": "1000/50",
-    "houseName": "A-편한세상",
-    "netLeasableArea": "49.58m²"
+    "houseType": "오피스텔 / 월세",
+    "price": "1,000/60",
+    "houseName": "가윤오피스텔",
+    "netLeasableArea": "16.8m²",
+    "maintenanceCost": 10
   },
   {
     "id": 109,
-    "houseType": "오피스텔",
-    "price": "1000/50",
-    "houseName": "A-편한세상",
-    "netLeasableArea": "49.58m²"
+    "houseType": "오피스텔 / 월세",
+    "price": "1,000/70",
+    "houseName": "칸타빌레7차",
+    "netLeasableArea": "15.56m²",
+    "maintenanceCost": 10
   },
   {
     "id": 110,
-    "houseType": "오피스텔",
-    "price": "1000/50",
-    "houseName": "A-편한세상",
-    "netLeasableArea": "49.58m²"
+    "houseType": "오피스텔 / 월세",
+    "price": "1,000/45",
+    "houseName": "씨티오피스텔",
+    "netLeasableArea": "21.84m²",
+    "maintenanceCost": 8.5
   },
   {
     "id": 111,
-    "houseType": "오피스텔",
-    "price": "1000/50",
-    "houseName": "A-편한세상",
-    "netLeasableArea": "49.58m²"
+    "houseType": "오피스텔 / 전세",
+    "price": "5.9억",
+    "houseName": "마포트라팰리스",
+    "netLeasableArea": "76.79m²",
+    "maintenanceCost": 18
   },
   {
     "id": 112,
-    "houseType": "오피스텔",
-    "price": "1000/50",
-    "houseName": "A-편한세상",
-    "netLeasableArea": "49.58m²"
+    "houseType": "오피스텔 / 전세",
+    "price": "3.2억",
+    "houseName": "시온캐슬용산",
+    "netLeasableArea": "25.55m²",
+    "maintenanceCost": 11
+  },
+  {
+    "id": 113,
+    "houseType": "오피스텔 / 월세",
+    "price": "2,000/160",
+    "houseName": "DK밸리뷰",
+    "netLeasableArea": "33.76m²",
+    "maintenanceCost": 12
+  },
+  {
+    "id": 114,
+    "houseType": "오피스텔 / 전세",
+    "price": "3.35억",
+    "houseName": "메르센트",
+    "netLeasableArea": "29.75m²",
+    "maintenanceCost": 9
+  },
+  {
+    "id": 115,
+    "houseType": "오피스텔 / 전세",
+    "price": "2.4억",
+    "houseName": "엘크루메트로시티",
+    "netLeasableArea": "29.09m²",
+    "maintenanceCost": 12
+  },
+  {
+    "id": 116,
+    "houseType": "오피스텔 / 월세",
+    "price": "3,000/210",
+    "houseName": "YG포레스트",
+    "netLeasableArea": "32.03m²",
+    "maintenanceCost": 18
+  },
+  {
+    "id": 117,
+    "houseType": "오피스텔 / 월세",
+    "price": "1,000/110",
+    "houseName": "테라289",
+    "netLeasableArea": "15.03m²",
+    "maintenanceCost": 9
+  },
+  {
+    "id": 118,
+    "houseType": "오피스텔 / 월세",
+    "price": "5,000/350",
+    "houseName": "더라움펜트하우스",
+    "netLeasableArea": "58.82m²",
+    "maintenanceCost": 27
+  },
+  {
+    "id": 119,
+    "houseType": "오피스텔 / 전세",
+    "price": "2억",
+    "houseName": "파로스타워",
+    "netLeasableArea": "18.94m²",
+    "maintenanceCost": 10
+  },
+  {
+    "id": 120,
+    "houseType": "오피스텔 / 전세",
+    "price": "1.9억",
+    "houseName": "잠실렉스빌2차",
+    "netLeasableArea": "21.77m²",
+    "maintenanceCost": 10
   }
 ]

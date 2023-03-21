@@ -21,7 +21,7 @@ const Home = ({ type }: typeProps) => {
   const [data, setData] = useState<any>(null);
 
   const getData = async () => {
-    const { data } = await axios.get("/data/home/data.json");
+    const { data } = await axios.get(`/data/home/${type}Data.json`);
     setData(data);
   };
 

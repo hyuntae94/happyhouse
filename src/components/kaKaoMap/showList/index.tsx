@@ -38,7 +38,7 @@ const ShowList = ({ type }: typeProps) => {
           alt={"정보아이콘"}
         ></img>
       </div>
-      <Show data={data} />
+      <Show data={data} type={type} />
     </div>
   );
 };
