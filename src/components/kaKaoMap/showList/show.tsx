@@ -32,8 +32,8 @@ const Show = ({ data, type }: any) => {
             <div className={cx("netLeasableArea")}>
               {item.netLeasableArea + ` / 관리비 ${item.maintenanceCost}만`}
             </div>
-            <p>★역세권/3분거리/신축건물/풀옵션★</p>
-            <p>☞☞☞전화,문자 문의 가능</p>
+            <p className={cx("info")}>★역세권/3분거리/신축건물/풀옵션★</p>
+            <p className={cx("info")}>☞☞☞전화,문자 문의 가능</p>
           </div>
         </div>
       ))}
