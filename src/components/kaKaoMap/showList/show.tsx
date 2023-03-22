@@ -20,11 +20,9 @@ const Show = ({ data, type }: any) => {
           key={item.id}
           onClick={() => router.push(`/detail/${item.id}`)}
         >
-          <img
-            className={cx("houseImg")}
-            src={`/img/${type}/img${idx % 9}.jpg`}
-            alt="매물사진"
-          ></img>
+          <div className={cx("houseImg")}>
+            <img src={`/img/${type}/img${idx % 9}.jpg`} alt="매물사진"></img>
+          </div>
           <div className={cx("content_wrapper")}>
             <div className={cx("houseType")}>{item.houseType}</div>
             <div className={cx("houseName")}>{item.houseName}</div>
