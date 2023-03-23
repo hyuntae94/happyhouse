@@ -60,6 +60,16 @@ const EventMarkerContainer = ({
         src: `/img/kakaoMap/iconHome${iconNumber}.svg`,
         size: imageSize2,
       }}
+      zIndex={10}
+      onMouseOver={(marker: kakao.maps.Marker) => {
+        marker.setZIndex(100);
+        marker.setOpacity(1);
+      }}
+      onMouseOut={(marker: kakao.maps.Marker) => {
+        marker.setZIndex(10);
+        marker.setOpacity(0.8);
+      }}
+      opacity={0.8}
     ></MapMarker>
   );
 };
