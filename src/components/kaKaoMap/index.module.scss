@@ -1,0 +1,55 @@
+@import "@styles/constants.scss";
+
+$ROADVIEW_IMG_PATH: $STATIC_IMG_PATH + "/roadView/";
+.roadviewControlContainer {
+  position: relative; //z-index 적용
+  top: 20px;
+  right: 50px;
+  display: flex;
+  justify-content: flex-end;
+  .roadviewControl {
+    width: 42px;
+    height: 42px;
+    z-index: 40;
+    background-image: url($ROADVIEW_IMG_PATH + "offViewImg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    &.active {
+      background-image: url($ROADVIEW_IMG_PATH + "onViewImg.png");
+    }
+    &:hover p {
+      display: block;
+    }
+    .roadViewInfo {
+      display: none;
+      position: absolute;
+      bottom: -40px;
+      right: -5px;
+      padding: 8px;
+      border-radius: 10px;
+      z-index: 45;
+      color: white;
+      background-color: rgb(122, 112, 112);
+    }
+  }
+}
+
+.closeRoadView {
+  display: none;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #25272b;
+  &.visble {
+    display: block;
+  }
+  .closeX {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+  }
+}
