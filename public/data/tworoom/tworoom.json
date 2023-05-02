@@ -4,139 +4,159 @@
     "houseType": "투룸 / 월세",
     "price": "5000/80",
     "houseName": "아르떼 빌라",
-    "netLeasableArea": "30m²"
+    "netLeasableArea": "30m²",
+    "maintenanceCost": 15
   },
   {
     "id": 102,
     "houseType": "투룸 / 월세",
     "price": "3000/120",
     "houseName": "드림빌라지움",
-    "netLeasableArea": "26.98m²"
+    "netLeasableArea": "26.98m²",
+    "maintenanceCost": 17
   },
   {
     "id": 103,
     "houseType": "투룸 / 전세",
     "price": "2.75억",
     "houseName": "에코빌",
-    "netLeasableArea": "29.96m²"
+    "netLeasableArea": "29.96m²",
+    "maintenanceCost": 11
   },
   {
     "id": 104,
     "houseType": "투룸 / 월세",
     "price": "500/230",
     "houseName": "슈프테",
-    "netLeasableArea": "56.5m²"
+    "netLeasableArea": "56.5m²",
+    "maintenanceCost": 13
   },
   {
     "id": 105,
     "houseType": "투룸 / 월세",
     "price": "5000/120",
     "houseName": "앙상떼",
-    "netLeasableArea": "24.98m²"
+    "netLeasableArea": "24.98m²",
+    "maintenanceCost": 8
   },
   {
     "id": 106,
     "houseType": "투룸 / 전세",
     "price": "3.5억",
     "houseName": "베아누",
-    "netLeasableArea": "24.47m²"
+    "netLeasableArea": "24.47m²",
+    "maintenanceCost": 10
   },
   {
     "id": 107,
     "houseType": "쓰리룸 / 월세",
     "price": "5000/230",
     "houseName": "야샤",
-    "netLeasableArea": "53.97m²"
+    "netLeasableArea": "53.97m²",
+    "maintenanceCost": 16
   },
   {
     "id": 108,
     "houseType": "쓰리룸 / 전세",
     "price": "4.6억",
     "houseName": "에드워드",
-    "netLeasableArea": "29.85m²"
+    "netLeasableArea": "29.85m²",
+    "maintenanceCost": 12
   },
   {
     "id": 109,
     "houseType": "쓰리룸 / 전세",
     "price": "4.7억",
     "houseName": "펠리체",
-    "netLeasableArea": "53.14m²"
+    "netLeasableArea": "53.14m²",
+    "maintenanceCost": 7
   },
   {
     "id": 110,
     "houseType": "투룸 / 전세",
     "price": "3.6억",
     "houseName": "지오반니",
-    "netLeasableArea": "29.85m²"
+    "netLeasableArea": "29.85m²",
+    "maintenanceCost": 16
   },
   {
     "id": 111,
     "houseType": "투룸 / 매매",
     "price": "3억",
     "houseName": "마나",
-    "netLeasableArea": "28.33m²"
+    "netLeasableArea": "28.33m²",
+    "maintenanceCost": 15
   },
   {
     "id": 112,
     "houseType": "투룸 / 월세",
     "price": "5000/120",
     "houseName": "헤렌하루스",
-    "netLeasableArea": "39.66m²"
+    "netLeasableArea": "39.66m²",
+    "maintenanceCost": 15
   },
   {
     "id": 113,
     "houseType": "투룸 / 전세",
     "price": "3.1억",
     "houseName": "그레이스빌",
-    "netLeasableArea": "29.8m²"
+    "netLeasableArea": "29.8m²",
+    "maintenanceCost": 14
   },
   {
     "id": 114,
     "houseType": "투룸 / 전세",
     "price": "3억",
     "houseName": "노블레스",
-    "netLeasableArea": "24.47m²"
+    "netLeasableArea": "24.47m²",
+    "maintenanceCost": 16
   },
   {
     "id": 115,
     "houseType": "투룸 / 전세",
     "price": "3억",
     "houseName": "로얄빌",
-    "netLeasableArea": "63.88m²"
+    "netLeasableArea": "63.88m²",
+    "maintenanceCost": 10
   },
   {
     "id": 116,
     "houseType": "투룸 / 매매",
     "price": "2.6억",
     "houseName": "그린빌",
-    "netLeasableArea": "29.13m²"
+    "netLeasableArea": "29.13m²",
+    "maintenanceCost": 10
   },
   {
     "id": 117,
     "houseType": "투룸 / 월세",
     "price": "5000/120",
     "houseName": "비즈빌",
-    "netLeasableArea": "35.76m²"
+    "netLeasableArea": "35.76m²",
+    "maintenanceCost": 10
   },
   {
     "id": 118,
     "houseType": "쓰리룸 / 매매",
     "price": "4.3억",
     "houseName": "한솔",
-    "netLeasableArea": "62.32m²"
+    "netLeasableArea": "62.32m²",
+    "maintenanceCost": 12
   },
   {
     "id": 119,
     "houseType": "투룸 / 전세",
     "price": "3.5억",
     "houseName": "씨엔빌",
-    "netLeasableArea": "50.05m²"
+    "netLeasableArea": "50.05m²",
+    "maintenanceCost": 10
   },
   {
     "id": 120,
     "houseType": "투룸 / 전세",
     "price": "2.7억",
     "houseName": "스톤하우스",
-    "netLeasableArea": "32m²"
+    "netLeasableArea": "32m²",
+    "maintenanceCost": 13
   }
 ]
