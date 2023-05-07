@@ -90,9 +90,6 @@ const Home = ({ type }: typeProps) => {
               zIndex={20}
               position={center}
               draggable={true}
-              onDragStart={(marker: kakao.maps.Marker) => {
-                console.log(marker);
-              }}
               onDragEnd={(marker: kakao.maps.Marker) => {
                 setCenter({
                   lat: marker.getPosition().getLat(),
