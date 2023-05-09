@@ -16,19 +16,16 @@ $IMG_PATH: $STATIC_IMG_PATH + "/detailPage/apartInfo";
       width: 210px;
       height: 91px;
       .houseType {
-        width: 50px;
         height: 26px;
         font-size: 18px;
         color: $C_Blue10;
       }
       .houseName {
-        width: 190px;
         height: 36px;
         font-size: $FS_Ml;
         color: $C_Black;
       }
       .address {
-        width: 202px;
         height: 23px;
         font-size: $FS_Ms;
         font-weight: $Fw_SS;
